@@ -3,7 +3,7 @@
 This project was created using this command:
 
 ```sh
-npm create vite@latest sundae-starter -- --template react
+npm create vite@latest food-starter -- --template react
 ```
 
 and then following all of the steps below.
@@ -26,7 +26,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 ## Update port to 3000
 
-To match the expectation of the sundae server, and avoid CORS errors, add this to the property / value to the `defineConfig` argument in _vite.config.js_:
+To match the expectation of the server, and avoid CORS errors, add this to the property / value to the `defineConfig` argument in _vite.config.js_:
 
 ```js
   server: {
