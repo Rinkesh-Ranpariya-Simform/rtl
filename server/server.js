@@ -12,6 +12,8 @@ app.use(
   })
 );
 
+
+
 // use middleware to serve static images
 app.use(express.static("public"));
 
